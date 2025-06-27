@@ -17,8 +17,14 @@ const run = (desc: string, fn: () => void): void => {
 };
 
 // Example:
-import reverseString from "../src/day-01/solutions/reverseString";
-run("Reverse string should work", () => {
-  const result = reverseString("hello");
-  if (result !== "olleh") throw new Error("Test failed");
+// import reverseString from "../src/day-01/solutions/reverseString";
+// run("Reverse string should work", () => {
+//   const result = reverseString("hello");
+//   if (result !== "olleh") throw new Error("Test failed");
+// });
+
+import {isEven} from "../src/day-02/solutions/checkEvenNumber";
+run("isEven function should work", () => {
+  const result = isEven(28);
+  if (result === false) throw new Error("Test failed");
 });
