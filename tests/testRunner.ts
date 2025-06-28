@@ -41,5 +41,8 @@ const run = (desc: string, fn: () => void): void => {
 //   if (result !== true) throw new Error(`Expected true but got ${result}`);
 // });
 
-import { multiplicationTable } from "../src/day-02/solutions/multiplicationTable";
-multiplicationTable(19);
+// import { multiplicationTable } from "../src/day-02/solutions/multiplicationTable";
+// multiplicationTable(19);
+
+import { sumOfNaturalNumbers } from "../src/day-03/solutions/sumOfNaturalNumbers";
+sumOfNaturalNumbers(5);
